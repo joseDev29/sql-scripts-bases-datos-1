@@ -136,3 +136,4 @@ select departamentos.id, empleados.apellido from departamentos, empleados;
 --Consultas Anidadas:
 
 
+

@@ -231,7 +231,6 @@ CREATE TABLE Ganador_Oscar(
     director VARCHAR2(35),
     fotografia VARCHAR2(35),
     fecha DATE,
-    estado CHAR(1),
 
 CONSTRAINT ganador_peliculasFK FOREIGN KEY (titulo,ano) REFERENCES Peliculas(titulo,ano),
 CONSTRAINT ganador_actoresFK FOREIGN KEY (actor) REFERENCES Actores(nombre),
